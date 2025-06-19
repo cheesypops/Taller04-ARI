@@ -1,0 +1,34 @@
+site_name: Documentación NextJs + Payload CMS
+site_description: Documentación oficial de la integración de NextJs con Payload CMS.
+site_author: Diego Viana
+
+theme:
+  name: material
+  language: es
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.footer
+    - content.code.annotate
+    - content.tabs.link
+
+markdown_extensions:
+  - admonition
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.details
+  - pymdownx.superfences
+  - toc:
+      permalink: "#"
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+
+nav:
+  - Inicio: index.md
+  - Estructura del Proyecto: estructura.md
+  - Autenticación: autenticacion.md
+  - Publicación de Contenido: publicacion.md
