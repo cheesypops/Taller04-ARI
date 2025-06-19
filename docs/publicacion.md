@@ -6,7 +6,7 @@
 Con Payload CMS puedes crear colecciones como foros, temas y comentarios, y gestionarlos desde el frontend.
 
 !!! note
-Puedes usar `useForm` o `server actions` para manejar la creación de contenido.
+    Puedes usar `useForm` o `server actions` para manejar la creación de contenido.
 
 ## Crear un tema desde el frontend
 

@@ -1,5 +1,5 @@
 !!! tip 
-Organiza tus carpetas de forma coherente para facilitar la escalabilidad del proyecto.
+    Organiza tus carpetas de forma coherente para facilitar la escalabilidad del proyecto.
 ---
 
 # Autenticación
@@ -7,7 +7,7 @@ Organiza tus carpetas de forma coherente para facilitar la escalabilidad del pro
 El sistema de autenticación usa `next-auth` con Payload CMS como proveedor personalizado.
 
 !!! warning
-No uses localStorage para guardar JWT. Siempre usa cookies seguras con `HttpOnly`.
+    No uses localStorage para guardar JWT. Siempre usa cookies seguras con `HttpOnly`.
 
 ## Flujo
 
